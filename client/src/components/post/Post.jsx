@@ -27,6 +27,8 @@ const PostInfo = styled.div`
 
     width: 55%;
     justify-content: space-between;
+
+    ${tablet({ width:'100%'})}
 `
 const AutherImage = styled.img`
     width: 40px;
