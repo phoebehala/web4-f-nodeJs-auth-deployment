@@ -29,7 +29,7 @@ const Container = styled.div`
 
     width:80px;
 
-    ${tablet({ bottom:0, width:'100vw', flex:'none', flexDirection: 'row', borderRight:'none', borderTop:'solid 5px #fdfbfb',})}
+    ${tablet({ backgroundColor:'#fff', bottom:0, width:'100vw', flex:'none', flexDirection: 'row', borderRight:'none', borderTop:'solid 5px #fdfbfb'})}
 `
 const Wrapper = styled.div`
     display: flex;
@@ -66,8 +66,6 @@ const Navitem = styled.div`
 `
 const Navuser = styled.div`
     flex:1;
- 
-
 
 `
 const UsrePhoto = styled.img`
@@ -80,6 +78,7 @@ const UsrePhoto = styled.img`
 `
 
 const SidebarBtn = styled.button`
+    visibility: hidden;
     cursor: pointer;
     margin: 3px;
     background-color: black;
@@ -92,6 +91,8 @@ const SidebarBtn = styled.button`
     :hover{
       font-weight:600;
     }
+    ${tablet({ visibility: visible })}
+
 `
 
 
