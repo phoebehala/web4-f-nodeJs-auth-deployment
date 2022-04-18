@@ -29,7 +29,7 @@ const Container = styled.div`
 
     width:80px;
 
-    ${tablet({ backgroundColor:'#fff', bottom:0, width:'100vw', flex:'none', flexDirection: 'row', borderRight:'none', borderTop:'solid 5px #fdfbfb'})}
+    ${tablet({ backgroundColor:'#fff', bottom:'0', width:'100vw', flex:'none', flexDirection: 'row', borderRight:'none', borderTop:'solid 5px #fdfbfb'})}
 `
 const Wrapper = styled.div`
     display: flex;

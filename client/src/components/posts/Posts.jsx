@@ -15,7 +15,7 @@ const Container = styled.div`
 
     margin-left: 80px;   /* due to the fixed navbar */
     
-    ${tablet({ flex:'none', marginLeft: '0px' })}
+    ${tablet({ flex:'none', marginLeft: '0px' , height:'100vh', overflow:'scroll'})}
 
 `
 const Posts = ({posts}) => {
