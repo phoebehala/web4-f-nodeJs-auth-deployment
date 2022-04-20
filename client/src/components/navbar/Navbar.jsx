@@ -75,6 +75,7 @@ const UsrePhoto = styled.img`
     object-fit: cover;
 
     margin-bottom: 30px;
+    ${tablet({  marginBottom: 0})}
 `
 
 const SidebarBtn = styled.button`
