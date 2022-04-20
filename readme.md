@@ -4,6 +4,7 @@
 
 ## Table of Contents
 * [General Info](#general-information)
+* [Project Status](#project-status)
 * [Technologies Used](#technologies-used)
 * [Features & Challenges](#features--challenges)
 * [API Source](#API-Source)
@@ -20,6 +21,9 @@
 - To practice MERN stack development
 - To practice CRUD
 - To deploy: a combined server on Heroku
+
+## Project Status
+Project is _in progress_: Currently working on fixing the Automatic deploys on HEROKU, so the deployed site is pending to be updated!!! 
 
 ## Technologies Used
 
