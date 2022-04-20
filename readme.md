@@ -22,8 +22,6 @@
 - To practice CRUD
 - To deploy: a combined server on Heroku
 
-## Project Status
-Project is _in progress_: Currently working on fixing the Automatic deploys on HEROKU, so the deployed site is pending to be updated!!! 
 
 ## Technologies Used
 
@@ -87,6 +85,8 @@ Please feel free to register or use the below user info to log in
 username: user2
 password: 123qwe
 ```
+## Project Status
+Project is _in progress_: Currently working on fixing the Automatic deploys on HEROKU, so the deployed site is pending to be updated!!! 
 
 ## Room for Improvement
 To do:
