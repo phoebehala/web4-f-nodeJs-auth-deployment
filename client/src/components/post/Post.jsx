@@ -24,10 +24,12 @@ const PostInfo = styled.div`
     display: flex;
     align-items:center;
 
-    width: 60%;
+    width: 100%;
     justify-content: space-between;
 
-    ${tablet({ width:'100%'})}
+    /* ${tablet({ width:'100%'})} */
+`
+const PostInfoLeft = styled.div`
 `
 const AutherImage = styled.img`
     width: 40px;
@@ -37,8 +39,9 @@ const AutherImage = styled.img`
     
 `
 const PostAuther = styled.span`
-
 ` 
+const PostInfoRight = styled.div`
+`
 
 
 const PostContent = styled.div`
@@ -135,18 +138,20 @@ const Post = ({post}) => {
             <Left>
 
                 <PostInfo>
-                    
-                    <AutherImage
+                    <PostInfoLeft>
+                        <AutherImage
                                 src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUR_o351MDDeZeHB_8wTc617eAhQmVAHVMevkS2ucYwkKezx6tVgHq9XsTHQjqTgQk71c&usqp=CAU"
                                 alt=""
-                    />
+                        />
 
-                    <Link to={`/?user=${post.username}`} className="link">
-                        <PostAuther>{post.username}</PostAuther>
-                    </Link>
+                        <Link to={`/?user=${post.username}`} className="link">
+                            <PostAuther>{post.username}</PostAuther>
+                        </Link>                    
+                    </PostInfoLeft>
                     
-                    <PostDate> {new Date(post.createdAt).toDateString()}</PostDate>
-        
+                    <PostInfoRight>
+                        <PostDate> {new Date(post.createdAt).toDateString()}</PostDate>
+                    </PostInfoRight>
                 </PostInfo>
                 
                 <PostContent >
