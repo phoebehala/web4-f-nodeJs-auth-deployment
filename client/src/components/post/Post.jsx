@@ -24,7 +24,7 @@ const PostInfo = styled.div`
     display: flex;
     align-items:center;
 
-    width: 55%;
+    width: 60%;
     justify-content: space-between;
 
     ${tablet({ width:'100%'})}
