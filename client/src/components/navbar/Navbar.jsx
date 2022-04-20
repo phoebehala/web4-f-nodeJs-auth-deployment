@@ -79,7 +79,10 @@ const UsrePhoto = styled.img`
 `
 
 const BtnDiv =  styled.div`
-    flex:3;
+    display:none ;
+  
+    ${tablet({ display:'block', flex:3})}
+
 `
 const SidebarBtn = styled.button`
     /* visibility: hidden; */
@@ -97,7 +100,7 @@ const SidebarBtn = styled.button`
       font-weight:600;
     }
     /* ${tablet({ visibility: 'visible' })} */
-    ${tablet({ display:'block' })}
+    ${tablet({ display:'block', margin: '0px auto'})}
 
 `
 
