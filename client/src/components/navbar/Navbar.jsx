@@ -79,7 +79,7 @@ const UsrePhoto = styled.img`
 `
 
 const BtnDiv =  styled.div`
-    flex:2;
+    flex:3;
 `
 const SidebarBtn = styled.button`
     /* visibility: hidden; */
