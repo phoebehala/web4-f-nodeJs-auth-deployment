@@ -41,7 +41,7 @@ const AutherImage = styled.img`
     
 `
 const PostAuther = styled.span`
-    margin-left: 5px;
+    margin-left: 10px;
 ` 
 const PostInfoRight = styled.div`
 `
