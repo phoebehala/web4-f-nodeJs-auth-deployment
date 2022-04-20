@@ -24,5 +24,3 @@ mongoose.connect(process.env.MONGODB_URL, () => {
     app.listen(PORT)
 }).then(console.log(`Backend server is running and listening to ${PORT}`))
   .catch(err =>console.log(err))
- 
-// hi
