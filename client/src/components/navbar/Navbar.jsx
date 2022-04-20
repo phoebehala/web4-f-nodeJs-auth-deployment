@@ -78,6 +78,9 @@ const UsrePhoto = styled.img`
     ${tablet({  marginBottom: 0})}
 `
 
+const BtnDiv =  styled.div`
+    flex:2;
+`
 const SidebarBtn = styled.button`
     /* visibility: hidden; */
     display:none ;
@@ -94,7 +97,7 @@ const SidebarBtn = styled.button`
       font-weight:600;
     }
     /* ${tablet({ visibility: 'visible' })} */
-    ${tablet({ display:'block', flex:2 })}
+    ${tablet({ display:'block' })}
 
 `
 
@@ -120,7 +123,6 @@ const Navbar = () => {
             </Link>
         </Logo>
         
-
         <Navitem>
 
           <Tooltip title="Home" placement="top">
@@ -147,7 +149,6 @@ const Navbar = () => {
             </Link>
           </Tooltip>
             
-
         </Navitem>
 
 
@@ -197,7 +198,11 @@ const Navbar = () => {
 
 
         {/* for tablet */}
-        {user && <SidebarBtn onClick={handleLogout }>LOGOUT</SidebarBtn> } 
+        {user && 
+          <BtnDiv>
+            <SidebarBtn onClick={handleLogout }>LOGOUT</SidebarBtn>
+          </BtnDiv>
+        } 
 
     
 
