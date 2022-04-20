@@ -30,6 +30,8 @@ const PostInfo = styled.div`
     /* ${tablet({ width:'100%'})} */
 `
 const PostInfoLeft = styled.div`
+    display: flex;
+    align-items:center;
 `
 const AutherImage = styled.img`
     width: 40px;
@@ -39,6 +41,7 @@ const AutherImage = styled.img`
     
 `
 const PostAuther = styled.span`
+    margin-left: 5px;
 ` 
 const PostInfoRight = styled.div`
 `
