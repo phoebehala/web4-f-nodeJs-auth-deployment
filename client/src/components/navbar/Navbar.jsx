@@ -78,7 +78,8 @@ const UsrePhoto = styled.img`
 `
 
 const SidebarBtn = styled.button`
-    visibility: hidden;
+    /* visibility: hidden; */
+    display:none ;
     cursor: pointer;
     margin: 3px;
     background-color: black;
@@ -91,7 +92,8 @@ const SidebarBtn = styled.button`
     :hover{
       font-weight:600;
     }
-    ${tablet({ visibility: 'visible' })}
+    /* ${tablet({ visibility: 'visible' })} */
+    ${tablet({ display:'block' })}
 
 `
 
@@ -190,11 +192,12 @@ const Navbar = () => {
             )
                 
             }   
-
-          {/* for tablet */}
-            {user && <SidebarBtn onClick={handleLogout }>LOGOUT</SidebarBtn> } 
-
         </Navuser>
+
+
+        {/* for tablet */}
+        {user && <SidebarBtn onClick={handleLogout }>LOGOUT</SidebarBtn> } 
+
     
 
       </Wrapper>
