@@ -94,7 +94,7 @@ const SidebarBtn = styled.button`
       font-weight:600;
     }
     /* ${tablet({ visibility: 'visible' })} */
-    ${tablet({ display:'block' })}
+    ${tablet({ display:'block', flex:1 })}
 
 `
 
