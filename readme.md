@@ -4,11 +4,11 @@
 
 ## Table of Contents
 * [General Info](#general-information)
-* [Project Status](#project-status)
 * [Technologies Used](#technologies-used)
 * [Features & Challenges](#features--challenges)
 * [API Source](#API-Source)
 * [Usage](#usage)
+* [Project Status](#project-status)
 * [Room for Improvement](#room-for-improvement)
 
 ## General Information
