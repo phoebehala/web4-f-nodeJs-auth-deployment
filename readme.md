@@ -93,3 +93,6 @@ To do:
 - Error handling
 - Adding admin consol
 - CREATE category feature
+- Pagination for blog
+- To show the author's photo on each post
+- To show the author's photo on sidebar
