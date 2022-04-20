@@ -91,7 +91,7 @@ const SidebarBtn = styled.button`
     :hover{
       font-weight:600;
     }
-    ${tablet({ visibility: visible })}
+    ${tablet({ visibility: 'visible' })}
 
 `
 

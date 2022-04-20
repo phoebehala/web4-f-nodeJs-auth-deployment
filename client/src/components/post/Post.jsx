@@ -3,8 +3,7 @@ import { Link } from 'react-router-dom';
 
 // style
 import styled from 'styled-components';
-
-
+import {mobile, tablet} from '../../util/responsive';
 
 const Container = styled.div`
     /* background-color: pink; */
