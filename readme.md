@@ -8,7 +8,7 @@
 * [Features & Challenges](#features--challenges)
 * [API Source](#API-Source)
 * [Usage](#usage)
-* [Project Status](#project-status)
+<!-- * [Project Status](#project-status) -->
 * [Room for Improvement](#room-for-improvement)
 
 ## General Information
@@ -85,8 +85,9 @@ Please feel free to register or use the below user info to log in
 username: user2
 password: 123qwe
 ```
+<!-- resolved
 ## Project Status
-Project is _in progress_: Currently working on fixing the Automatic deploys on HEROKU, so the deployed site is pending to be updated!!! 
+Project is _in progress_: Currently working on fixing the Automatic deploys on HEROKU, so the deployed site is pending to be updated!!!  -->
 
 ## Room for Improvement
 To do:
